@@ -102,7 +102,7 @@ class Manager :public User {
     Manager(char* userName,char* passWord,char* realName,uint8_t usertype,uint64_t seatNumber,uint8_t seatStatus,uint64_t garbageTime,uint8_t activityNumber):User(userName,passWord,realName,usertype,seatNumber,seatStatus,garbageTime,activityNumber){};
 
     Manager(char *userName, char *passWord, uint8_t usertype,char* realName):User(userName,passWord,usertype,realName){};
-    //返回值必须是个引用类型，原因见blog
+    
     Manager& operator=(User& user){
         this->setUserName(user.getUserName());
         this->setUserPassword(user.getUserPassword());

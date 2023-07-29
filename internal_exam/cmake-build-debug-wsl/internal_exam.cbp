@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="internal_exam"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/e/internal_exam/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="internal_exam">
+				<Option output="/mnt/e/internal_exam/cmake-build-debug-wsl/internal_exam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/internal_exam/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 internal_exam"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="internal_exam/fast">
+				<Option output="/mnt/e/internal_exam/cmake-build-debug-wsl/internal_exam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/internal_exam/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 internal_exam/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/e/internal_exam/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/e/internal_exam/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/e/internal_exam/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/e/internal_exam/Inc/Socket.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/User.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/bioPacket.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/doorLock.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/doorLockMenu.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/packet.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/taskQueue.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Inc/threadPool.h">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/Socket.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/User.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/bioPacket.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/doorLock.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/doorLockMenu.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/main.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/packet.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/taskQueue.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/Src/threadPool.cpp">
+			<Option target="internal_exam"/>
+		</Unit>
+		<Unit filename="/mnt/e/internal_exam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -25,7 +25,9 @@ threadPool::threadPool(int minNum, int maxNum)
             cout<<"new taskQueue failed"<<endl;
             break;
         }
-
+        
+        //在内存不足时,new (std::nothrow)并不抛出异常，而是将指针置NULL。
+        
         threadIDs = new (std::nothrow)pthread_t[maxNum];
         if(threadIDs == nullptr)
         {
